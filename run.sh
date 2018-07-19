@@ -1,11 +1,8 @@
+#！bin/bash
 mvn clean package
-echo "--------deson1-----------"
-java -jar deson1/target/deson1.jar
+echo "--------Exam1-----------"
+java -jar Exam1/target/Exam1.jar
 echo "--------deson2-----------"
-java -jar deson2/target/deson2.jar
+java -jar Exam2/target/Exam2.jar
 echo "--------deson3-----------"
-java -jar deson3/target/deson3.jar
-echo "--------deson4-----------"
-java -jar deson4/target/deson4.jar
-echo "--------deson5-----------"
-java -jar deson5/target/deson5.jar
+java -jar Exam3/target/Exam3.jar

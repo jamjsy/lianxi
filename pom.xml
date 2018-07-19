@@ -5,20 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.hand</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>JavaTest1</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>deson1</module>
-        <module>deson2</module>
-        <module>deson3</module>
-        <module>deson4</module>
-        <module>deson5</module>
+        <module>Exam1</module>
     </modules>
-
     <build>
         <sourceDirectory>src/main/java</sourceDirectory>
-        <finalName>demo</finalName>
+        <finalName>JavaTest1</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
@@ -46,4 +41,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
